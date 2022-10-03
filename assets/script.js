@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(document).keypress(function (event) {
         var bindList = [
-            {key: 109, page: "menu.html"},
+            {key: 109, page: "index.html"},
             {key: 99, page: "consultar-produto.html"},
         ];
         
