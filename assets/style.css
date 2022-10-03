@@ -66,29 +66,6 @@ a:hover {
     color: #fff;
 }
 
-/* Consultar Produto */
-
-.cprod-form input {
-    border: 1px solid #a1a1a1;
-    border-radius: 5px;
-    padding: 8px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    width: 15%;
-}
-
-.cprod-form input:focus {
-    outline: 1px solid #999;
-}
-
-.cprod-box {
-    margin-top: 20px;
-    padding: 10px 30px;
-    border: 1px solid #c0c0c0;
-    border-radius: 10px;
-}
-
 /* Menu */
 
 .menu-table {
@@ -109,4 +86,28 @@ a:hover {
 .menu-table th:nth-child(1),
 .menu-table td:nth-child(1) {
     text-align: center;
+}
+
+/* Consultar Produto */
+
+.cprod-form input {
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 15%;
+}
+
+.cprod-form input:focus {
+    outline: 1px solid #999;
+}
+
+.cprod-box {
+    margin-top: 20px;
+    padding: 10px 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #d4d4d4;
 }
