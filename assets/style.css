@@ -1,0 +1,112 @@
+* {
+    font-family: 'Arial', 'sans-serif';
+}
+
+body {
+    margin: 0;
+    background-color: #1680BC;
+}
+
+header, footer {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    align-items: baseline;
+    font-size: 14px;
+    color: #fff;
+}
+
+header .mercado {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .clock {
+    text-align: right;
+}
+
+main {
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    transition: all .3s;
+}
+
+a:hover {
+    color: rgb(0, 79, 176);
+}
+
+.btn {
+    background-color: #32004B;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all .3s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #454545;
+    color: #fff;
+}
+
+/* Consultar Produto */
+
+.cprod-form input {
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 15%;
+}
+
+.cprod-form input:focus {
+    outline: 1px solid #999;
+}
+
+.cprod-box {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+}
+
+/* Menu */
+
+.menu-table {
+    text-align: left;
+    border-spacing: 0;
+    border: 1px solid #c0c0c0;
+    border-bottom: none;
+    width: 100%;
+    max-width: 600px;
+}
+
+.menu-table th,
+.menu-table td {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px;
+}
+
+.menu-table th:nth-child(1),
+.menu-table td:nth-child(1) {
+    text-align: center;
+}
