@@ -18,21 +18,28 @@
         <a href="index.html" class="btn">Menu [M]</a>
     </header>
     <main>
-        <h2>Consultar produto</h2>
+        <h2>Atualizar produto</h2>
         <form class="prod-form" method="POST" action="">
-            Código do produto:
-            <input type="text" name="codigo">
+            Código:
+            <input type="text" name="codigo" value="87436426" disabled>
 
-            <button type="submit" class="btn">Buscar</button>
+            Nome:
+            <input type="text" name="nome" value="Frango Perdigão">
+
+            Preço:
+            <input type="number" name="preco" value="20.00">
+
+            Unidade:
+            <select name="unidade">
+                <option value="un">Un</option>
+                <option value="kg" selected>Kg</option>
+            </select>
+            
+            Quantidade em estoque:
+            <input type="number" name="estoque" value="287.76">
+
+            <button type="submit" class="btn">Enviar</button>
         </form>
-
-        <div class="prod-box">
-            <h3>87436426 - Frango Perdigão</h3>
-            Preço: <b>R$ 20,00 / kg</b><br>
-            Quantidade em estoque: <b>287.76 kg</b><br><br>
-            <a href="atualizar-produto.html?codigo=87436426"><button class="btn btn-sm btn-grey">Editar</button></a>
-            <a href="#"><button class="btn btn-sm btn-red">Excluir</button></a>
-        </div>
     </main>
     <footer>
         <div>Funcionário 01</div>

@@ -66,6 +66,21 @@ a:hover {
     color: #fff;
 }
 
+.btn-sm {
+    text-transform: none;
+    font-size: 14px;
+    padding: 8px 17px;
+    border-radius: 15px;
+}
+
+.btn-grey {
+    background-color: rgb(85, 85, 85);
+}
+
+.btn-red {
+    background-color: rgb(227, 21, 21);
+}
+
 /* Menu */
 
 .menu-table {
@@ -88,26 +103,38 @@ a:hover {
     text-align: center;
 }
 
-/* Consultar Produto */
+/* Produto */
 
-.cprod-form input {
+.prod-form input, select {
     border: 1px solid #a1a1a1;
     border-radius: 5px;
     padding: 8px;
     display: block;
     margin-top: 10px;
     margin-bottom: 15px;
-    width: 15%;
+    width: 30%;
 }
 
-.cprod-form input:focus {
+.prod-form input:focus, select:focus {
     outline: 1px solid #999;
 }
 
-.cprod-box {
+.prod-box {
     margin-top: 20px;
-    padding: 10px 30px;
+    padding: 25px 30px;
     
     border-radius: 10px;
     box-shadow: 0px 0px 5px #d4d4d4;
+}
+
+.prod-del {
+    color: #ff0000;
+}
+
+.prod-del:hover {
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
 }

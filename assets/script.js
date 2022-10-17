@@ -3,6 +3,7 @@ $(document).ready(function () {
         var bindList = [
             {key: 109, page: "index.html"},
             {key: 99, page: "consultar-produto.html"},
+            {key: 112, page: "criar-produto.html"},
         ];
         
         var key = event.which;
