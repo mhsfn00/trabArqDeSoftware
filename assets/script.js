@@ -6,6 +6,7 @@ $(document).ready(function () {
             {key: 112, page: "criar-produto.html"},
             {key: 70, page: "fechar_caixa.html"},
             {key: 76, page: "login.html"},
+            {key: 84, page: "cadastro-cliente.html"},
         ];
         
         var key = event.which;
