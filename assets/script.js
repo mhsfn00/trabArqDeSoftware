@@ -16,3 +16,11 @@ $(document).ready(function () {
         }
     });
 });
+
+function fechar_caixa() {
+    alert("Caixa fechado com sucesso");
+}
+
+function relatorio_caixa() {
+    alert("Imprimindo relatório");
+}
