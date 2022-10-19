@@ -138,3 +138,74 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
+
+.logo_login {
+    position: absolute;
+    width: 100px;
+    height: 187px;
+    left: 200px;
+    top: 163px;
+}
+
+.texto_login {
+    position: absolute;
+    width: 98px;
+    height: 42px;
+    left: 800px;
+    top: 236px;
+
+    font-family: 'Imprima';
+    text-decoration: underline;
+    text-decoration-color:#32004B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.input_usuario_senha {
+    position: absolute;
+    width: 224px;
+    height: 40px;
+    left: 769px;
+    top: 317px;
+}
+
+.esqueci_senha a {
+    position: absolute;
+    width: 222px;
+    height: 28px;
+    left: 818px;
+    top: 415px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.btn_login {
+    position: absolute;
+    width: 113px;
+    height: 76px;
+    left: 804px;
+    top: 480px; 
+}
+
+.clock_login {
+    position: absolute;
+    width: 174px;
+    height: 61px;
+    left: 1500px;
+    top: 819px;
+    
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;  
+}
