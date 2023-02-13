@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+
+    <title>Fechar Caixa</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/logo.png" width="50px">
+        <div class="mercado">Nome do Mercado</div>
+        <a href="index.html" class="btn">Menu [M]</a>
+    </header>
+    <main>
+        <h2>Fechar Caixa</h2>
+        <form class="prod-form" method="POST" action="">
+            Usuario:
+            <select name="usuario">
+                <option value="func01">Funcionario 01</option>
+                <option value="func02">Funcionario 02</option>
+            </select>
+
+            Caixa:
+            <select name="caixa">
+                <option value="caixa01">Caixa 01 [ABERTO]</option>
+                <option value="caixa02">Caixa 02 [FECHADO]</option>
+            </select>
+
+            <button type="submit" class="btn">Vizualizar</button>
+            <button type="submit" class="btn" onclick="relatorio_caixa()">Imprimir Relatório</button>
+            <button type="submit" class="btn" onclick="fechar_caixa()">Fechar Caixa</button>
+        </form>
+    </main>
+    <footer>
+        <div>Funcionário 01</div>
+        <div class="clock">
+            10:22 AM<br>
+            22/09/2019
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,211 @@
+* {
+    font-family: 'Arial', 'sans-serif';
+}
+
+body {
+    margin: 0;
+    background-color: #1680BC;
+}
+
+header, footer {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    align-items: baseline;
+    font-size: 14px;
+    color: #fff;
+}
+
+header .mercado {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .clock {
+    text-align: right;
+}
+
+main {
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    transition: all .3s;
+}
+
+a:hover {
+    color: rgb(0, 79, 176);
+}
+
+.btn {
+    background-color: #32004B;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all .3s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #454545;
+    color: #fff;
+}
+
+.btn-sm {
+    text-transform: none;
+    font-size: 14px;
+    padding: 8px 17px;
+    border-radius: 15px;
+}
+
+.btn-grey {
+    background-color: rgb(85, 85, 85);
+}
+
+.btn-red {
+    background-color: rgb(227, 21, 21);
+}
+
+/* Menu */
+
+.menu-table {
+    text-align: left;
+    border-spacing: 0;
+    border: 1px solid #c0c0c0;
+    border-bottom: none;
+    width: 100%;
+    max-width: 600px;
+}
+
+.menu-table th,
+.menu-table td {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px;
+}
+
+.menu-table th:nth-child(1),
+.menu-table td:nth-child(1) {
+    text-align: center;
+}
+
+/* Produto */
+
+.prod-form input, select {
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.prod-form input:focus, select:focus {
+    outline: 1px solid #999;
+}
+
+.prod-box {
+    margin-top: 20px;
+    padding: 25px 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #d4d4d4;
+}
+
+.prod-del {
+    color: #ff0000;
+}
+
+.prod-del:hover {
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.logo_login {
+    position: absolute;
+    width: 100px;
+    height: 187px;
+    left: 200px;
+    top: 163px;
+}
+
+.texto_login {
+    position: absolute;
+    width: 98px;
+    height: 42px;
+    left: 800px;
+    top: 236px;
+
+    font-family: 'Imprima';
+    text-decoration: underline;
+    text-decoration-color:#32004B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.input_usuario_senha {
+    position: absolute;
+    width: 224px;
+    height: 40px;
+    left: 769px;
+    top: 317px;
+}
+
+.esqueci_senha a {
+    position: absolute;
+    width: 222px;
+    height: 28px;
+    left: 818px;
+    top: 415px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.btn_login {
+    position: absolute;
+    width: 113px;
+    height: 76px;
+    left: 804px;
+    top: 480px; 
+}
+
+.clock_login {
+    position: absolute;
+    width: 174px;
+    height: 61px;
+    left: 1500px;
+    top: 819px;
+    
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;  
+}
